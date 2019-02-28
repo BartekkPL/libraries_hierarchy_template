@@ -1,0 +1,19 @@
+@startuml libraries
+
+object libA
+libA : libA.hpp
+
+object libB
+libB : libB.hpp
+
+object libAB
+libAB : libAB.hpp
+
+object execAB
+execAB : main.cpp
+
+execAB .. libAB
+libAB .. libA
+libAB .. libB
+
+@enduml

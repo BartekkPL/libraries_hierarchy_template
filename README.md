@@ -1,4 +1,12 @@
-# Build multiple libraries and set dependiencies between them
+# Libraries hierarchy template
+
+## Build multiple libraries and set dependiencies between them
+
+![alt text](https://github.com/BartekkPL/libraries_hierarchy_template/blob/master/docs/libraries.png "Architecture")
+
+
+### Requirements
+ - CMake >= 3.10
 
 ### Test
 
