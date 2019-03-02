@@ -10,8 +10,8 @@ set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS_DEBUG} -Wall")
 # LIBRARY SOURCES SETTING
 #-------------------------------------------------------------------------------
 
-find_library(LIB_A lib_a PATHS ~/libraries/lib)
-find_library(LIB_B lib_b PATHS ~/libraries/lib)
+find_library(LIB_A lib_a)
+find_library(LIB_B lib_b)
 
 if(NOT LIB_A OR NOT LIB_B)
     message(FATAL ERROR "libA or libB not found")

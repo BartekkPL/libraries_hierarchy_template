@@ -10,7 +10,7 @@ set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS_DEBUG} -Wall")
 # EXECUTABLE SOURCES SETTING
 #-------------------------------------------------------------------------------
 
-find_library(LIB_AB lib_ab PATHS ~/libraries/lib)
+find_library(LIB_AB lib_ab)
 
 if(NOT LIB_AB)
     message(FATAL ERROR "libAB not found")
